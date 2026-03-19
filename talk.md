@@ -50,6 +50,10 @@ Today it's evolved into a full-scale search engine that scans the top 1,000 port
 
 # Basic Usage
 
+How to interact with Shodan
+
+## Overview
+
 - Browser usage
 - Programatically
 
@@ -263,6 +267,8 @@ notes go here
 
 # Retired Services
 
+Cool things it use to do
+
 ::: notes
 
 A lot of times Shodan just likes to experiment.
@@ -308,6 +314,8 @@ you'll probably want to use the API or command line.
 :::
 
 # Command line client
+
+Typey-typey time...
 
 ::: notes
 
@@ -414,7 +422,7 @@ shodan parse ha-servers.json.gz --fields ip_str | parallel shodan host -S {}
  
 ## CLI - Demo - Get Servers
 
-![](static/cli-parse-results-files.png)
+![](static/cli-parsed-results-files.png)
 
 ::: notes
 
@@ -472,7 +480,9 @@ Not shown here, but at the bottom there was an address that had lots of open por
 
 :::
 
-# Top 5 Cleverest/Scariest/Weirdest Queries
+# Stupid Shodan Tricks
+
+Top 5 Cleverest/Scariest/Weirdest Queries
 
 ## No authentication VNC
 `"authentication disabled" "RFB 003.008"`
