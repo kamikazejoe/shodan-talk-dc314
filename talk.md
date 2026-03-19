@@ -2,7 +2,6 @@
 % Joseph Cathell <kamikazejoe@gmail.com>
 %![](static/qrcode.png)<br/>Talk: [${TALK_URL}](${TALK_URL})<br/>Repo: [${REPO_URL}](${REPO_URL})
 
-
 # What is it?
 
  - Search engine for the "Internet of Things"
